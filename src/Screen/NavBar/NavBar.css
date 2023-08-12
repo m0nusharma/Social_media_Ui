@@ -1,0 +1,27 @@
+.BorderHide{
+    border: none;
+}
+
+.search-box {
+    position: relative; /* To ensure the pseudo-element covers the entire input box */
+  }
+
+  .search-box input:focus {
+    outline: none; /* Remove the default focus outline */
+    border: none; /* Remove the border */
+  }
+
+  .Icon_hover:hover{
+    cursor: pointer;
+    color: black !important;
+  }
+
+  @media only screen and (max-width: 767px) {
+    .logoo_set {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+      padding: 0;
+    }
+    
+  }
