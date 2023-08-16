@@ -5,6 +5,7 @@ import ProfileImg from "../../assets/monu.jpg";
 
 const NavBar = () => {
   return (
+    <div className="container-sm-100%">
     <div className="p-3  row ">
       <div className=" logoo_set col-sm-12 col-md-4 d-flex  align-items-center  gap-4 ps-5  ">
         <img src={Logo} alt="" height="50" className="" />
@@ -16,7 +17,7 @@ const NavBar = () => {
           <input
             type="search"
             placeholder="Search now"
-            className="rounded-5 BorderHide p-2   "
+            className="rounded-5 BorderHide p-2 w-75  "
           />
         </div>
         <i className="fa-solid fa-microphone m-3 fs-4 text-secondary Icon_hover"></i>
@@ -34,6 +35,7 @@ const NavBar = () => {
           className="Icon_hover rounded-circle me-5"
         />
       </div>
+    </div>
     </div>
   );
 };

@@ -1,0 +1,20 @@
+.Socail_icons{
+    width: 30px;
+    height: 30px;
+}
+
+.two_icon{
+    position: relative;
+    left: -10px;
+
+}
+.three_icon{
+    position: relative;
+    left: -20px;
+}
+
+.four_icon{
+    position: relative;
+    left: -30px;
+}
+

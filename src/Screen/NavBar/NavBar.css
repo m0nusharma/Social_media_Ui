@@ -17,11 +17,11 @@
   }
 
   @media only screen and (max-width: 767px) {
-    .logoo_set {
+    .logoo_set  {
       display: flex;
       justify-content: space-between;
-      margin: 0;
-      padding: 0;
+      margin: 0 !important;
+      padding: 0 ;
     }
     
   }

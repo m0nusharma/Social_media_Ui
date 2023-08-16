@@ -1,0 +1,34 @@
+.head_Color{
+    background-color: #eef6fd !important;
+}
+.textSize{
+    font-size: 12px;
+}
+
+.backG{
+    background-color: #dde7ff !important;
+}
+
+.CurcleCrose{
+    height: 50px;
+    width: 50px;
+    box-shadow: 2px 2px 5px #888888;
+  
+}
+
+
+@media only screen and (max-width: 767px) {
+    .Make_float{
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+      padding: 0 ;
+    }
+  }
+
+.CurcleCrose :hover{
+    cursor: pointer;
+}
+/* position-absolute end-0 */
+/* position-relative */
+/* float-end  */

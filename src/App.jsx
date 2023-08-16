@@ -8,7 +8,7 @@ function App() {
   const [] = useState();
 
   return (
-    <div className="">
+    <div className="overflow-hidden">
       <Deshboard />
     </div>
   );
