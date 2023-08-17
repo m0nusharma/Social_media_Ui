@@ -1,0 +1,49 @@
+
+
+.text_hover:hover  {
+  border-bottom: 3px solid #0d71fd;
+  color: #0d71fd; 
+  cursor: pointer;
+  transition: color 0.2s, border-bottom 0.3s;
+}
+
+.Text_img:hover{
+  color: #0d71fd;
+}
+.imageBox:hover {
+  opacity: 0.7; 
+  transition: opacity 0.3s; 
+  cursor: pointer;
+}
+
+.imageBox{
+  width: 13vh;
+}
+
+@media only screen and (max-width: 575px) {
+  .imageBox {
+    width:40vh;
+
+  }
+  .text_hover{
+    font-size: 20px;
+    margin-top: 10px;
+    border-bottom: none !important;
+  }
+}
+
+.items:hover{
+    cursor: pointer;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.col-sm-4 {
+  text-align: center;
+}
+
+
+

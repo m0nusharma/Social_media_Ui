@@ -1,6 +1,9 @@
 import React from "react";
 import "./Heading.css";
 import Socail_media from "../Socail_media/Socail_media";
+import Facebook from "../../assets/facebook.png";
+import Twitter from "../../assets/twitter.png";
+import insta from "../../assets/insta.png";
 
 const Heading = () => {
   return (
@@ -11,15 +14,19 @@ const Heading = () => {
           <b className="text-primary">Social media</b> Conversation
         </h3>
         <div className="d-flex gap-1 align-items-center">
-            <span className="textSize m-0">All Your Social Network.</span>
-            <span className="backG rounded-5  ">
-              <span className="textSize m-0  p-1 d-flex">
-                One Simple <b className="text-primary">Deshboard</b>
-                </span>
-                </span>
-                <Socail_media />
-            
-          </div>
+          <span className="textSize m-0">All Your Social Network.</span>
+          <span className="backG rounded-5  ">
+            <span className="textSize m-0  p-1 d-flex">
+              One Simple <b className="text-primary"> Deshboard.</b>
+            </span>
+          </span>
+          <Socail_media
+            ImageOne={Facebook}
+            ImageTwo={insta}
+            Imagethree={Twitter}
+            title="5+"
+          />
+        </div>
       </div>
       <div className="col-sm-12 col-md-1 ">
         <div className=" Make_float   ">
