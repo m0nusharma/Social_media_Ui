@@ -1,0 +1,16 @@
+.BoxP{
+    padding: 2px ;
+    font-size: 12px;
+}
+
+.BoxItem:hover{
+    color: #0d6efd;
+    cursor: pointer;
+    border-bottom: 1px solid #0d6efd;
+
+}
+
+.seting:hover{
+    color: #0d6efd;
+    cursor: pointer;
+}

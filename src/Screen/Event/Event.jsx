@@ -5,6 +5,7 @@ import monu from '../../assets/monu.jpg'
 import sonu from '../../assets/sonu.png'
 import suhil from'../../assets/sushil.png'
 
+
 const Event = () => {
   return (
     <div >
@@ -20,7 +21,7 @@ const Event = () => {
       ImageOne={monu}
       ImageTwo={sonu}
       Imagethree={suhil} 
-      title="10+"/>
+      title="2+"/>
       <p className="m-0 fw-bold text-secondary">36+ Friends</p>
       </div>
     </div>

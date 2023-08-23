@@ -7,7 +7,7 @@ import insta from "../../assets/insta.png";
 
 const Heading = () => {
   return (
-    <div className="row head_Color w-100 p-5">
+    <div className="row head_Color w-100 p-5 m-0">
       <div className="col-sm-12 col-md-11">
         <h2 className="m-0 fw-light ">Start Your</h2>
         <h3 className="">
@@ -16,9 +16,9 @@ const Heading = () => {
         <div className="d-flex gap-1 align-items-center">
           <span className="textSize m-0">All Your Social Network.</span>
           <span className="backG rounded-5  ">
-            <span className="textSize m-0  p-1 d-flex">
+            <p className="textSize m-0  p-1 d-flex">
               One Simple <b className="text-primary"> Deshboard.</b>
-            </span>
+            </p>
           </span>
           <Socail_media
             ImageOne={Facebook}

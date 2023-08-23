@@ -5,11 +5,14 @@ import Cricket from "../../assets/ViratKohli.jpg";
 import Football from "../../assets/football.jpg";
 import Musk from "../../assets/musk.jpg";
 import Event from "../Event/Event";
+import Profile_img from "../Profile_img/Profile_img";
+import Profile_name from "../Profile_name/Profile_name";
+import BigBox from "../BigBox/BigBox";
 
 const Socail_profile = () => {
   return (
     <div className="row d-flex">
-      <div className="col-sm-12 col-md-4 p-5 border-end">
+      <div className="col-sm-12 col-md-4 p-5 border-end ">
         <div className="d-flex justify-content-between">
           <h5 className="text-secondary">Your Shortcuts</h5>
           <button className="text-primary border-0 bg-light">
@@ -45,12 +48,15 @@ const Socail_profile = () => {
             <Video_play Video={Musk} title="Latest" />
           </span>
         </div>
-        <hr/>
-        <Event/>
+        <hr />
+        <Event />
       </div>
 
-      <div className="col-sm-12 col-md-4 p-5 border-end">hello wold</div>
-
+      <div className="col-sm-12 col-md-4 p-5 border-end">
+        <Profile_img />
+        <Profile_name/>
+        <BigBox/>
+      </div>
       <div className="col-sm-12 col-md-4 p-5 border-end">Socail_profile</div>
     </div>
   );
