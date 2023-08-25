@@ -8,7 +8,7 @@ import suhil from'../../assets/sushil.png'
 
 const Event = () => {
   return (
-    <div >
+    <div  className="p-2">
     <div className="d-flex align-items-center justify-content-between mb-3">
       <h5 className="m-0">Events</h5>
       <span className="d-flex align-items-center gap-4">
@@ -24,6 +24,7 @@ const Event = () => {
       title="2+"/>
       <p className="m-0 fw-bold text-secondary">36+ Friends</p>
       </div>
+      <hr/>
     </div>
   );
 };
